@@ -1,0 +1,13 @@
+.posts {
+    grid-area: blog;
+    width: 100%;
+}
+
+.grid {
+    display: grid;
+    grid-auto-rows: minmax(300px, auto);
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
+    padding: 20px 0;
+    width: 100%;
+}
