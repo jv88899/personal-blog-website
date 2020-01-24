@@ -26,3 +26,15 @@ ul {
     max-width: 800px;
     padding: 0 10px;
 }
+
+/* Grid */
+.wrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas:
+        "nav"
+        "blog"
+        "footer";
+    grid-template-rows: 60px 1fr 40px;
+    min-height: 100vh;
+}
