@@ -1,0 +1,11 @@
+footer {
+    grid-area: footer;
+    width: 100%;
+}
+
+.footer-wrapper {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+}
