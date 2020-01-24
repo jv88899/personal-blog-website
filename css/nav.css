@@ -1,0 +1,22 @@
+nav {
+    grid-area: nav;
+    width: 100%;
+}
+
+.nav-wrapper {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.nav-wrapper h1 {
+    flex-grow: 3;
+    font-size: 28px;
+}
+
+.nav-wrapper ul {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-around;
+}
