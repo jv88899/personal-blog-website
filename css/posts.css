@@ -11,3 +11,7 @@
     padding: 20px 0;
     width: 100%;
 }
+
+.posts article {
+    background-color: #444;
+}
