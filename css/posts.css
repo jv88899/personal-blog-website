@@ -5,13 +5,57 @@
 
 .grid {
     display: grid;
-    grid-auto-rows: minmax(300px, auto);
+    grid-auto-rows: minmax(350px, auto);
     grid-gap: 20px;
-    grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(205px, 1fr));
     padding: 20px 0;
     width: 100%;
 }
 
 .posts article {
-    background-color: #444;
+    border: 1px solid #999;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-image {
+    height: 150px;
+    width: 100%;
+}
+
+.card-image img {
+    height: 150px;
+    width: 100%;
+}
+
+.card-content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 95%;
+}
+
+.card-content h2 {
+    color: #69619a;
+}
+
+.card-content a {
+    background-color: #69619a;
+    border: 0;
+    border-radius: 3px;
+    color: #f8f8f8;
+    display: block;
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    transition: color 0.3s ease;
+    width: 160px;
+}
+
+.card-content a:hover {
+    color: rgba(220, 220, 220, 1);
 }
